@@ -1,5 +1,7 @@
 <template>
   <div class="hello">
+
+    <img src="../assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -78,6 +80,15 @@
         >
           awesome-vue
         </a>
+      </li>
+    </ul>
+    <h2>My work</h2>
+    <ul>
+      <li>
+        <router-link to="/assignments">Assignments</router-link>
+      </li>
+      <li>
+        <router-link to="/todo">To do</router-link>
       </li>
     </ul>
   </div>
